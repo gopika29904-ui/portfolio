@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopika | Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="logo">GOPIKA P</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="home-section">
+        <h1>Hello, I'm <span>Gopika</span></h1><br><br>
+        <p>Python Full-Stack Developer </p><br><br>
+        <a href="#contact" class="btn">Hire Me</a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated and detail-oriented Computer Science graduate.
+            Currently enhancing my skills in Python Full Stack Development at
+            Techolas Technologies. I love building responsive websites and scalable applications.
+        </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <p>Python</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Bootstrap</p>
+            <p>React JS</p>
+            <p>MySQL</p>
+            <p>Django</p>
+        </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+
+    <section id="projects" class="projects-section">
+        <div class="project-card">
+            <h2>Projects</h2>
+            <h3>Medi Path Finder</h3>
+            <p>
+                Predict diseases based on symptoms using data mining techniques.
+                Provides doctor recommendations, emergency support, and appointment booking.
+                Helps avoid misdiagnosis and offers quick medical guaidence, even in remote areas.
+            </p>
+        </div>
+
+    
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <h2 id="contact">Contact Me</h2>
+        <div class="input-box">
+    <form class="contact-form" onsubmit="sendMessage(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>
+
+
+        <p class="contact-info">
+            📞 9633165223<br>
+            📧 gopika@gmail.com <br>
+        </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
