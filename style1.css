@@ -95,6 +95,8 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
+
+
 .btn:hover {
     background: white;
 }
@@ -113,6 +115,7 @@ nav ul li a:hover {
 .about-section {
     padding: 80px 10%;
     text-align: center;
+    background-color: #e8e4ff;
 }
 
 .about-section h2 {
@@ -127,6 +130,34 @@ nav ul li a:hover {
     font-size: 18px;
     line-height: 1.6;
 }
+
+
+/* education */
+.edu-section {
+    padding: 70px 10%;
+}
+
+.edu-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 3px 10px #c9c9ff;
+}
+.edu-card h1{
+    color: #5b2be0; 
+}
+
+.edu-card h2 {
+     color: #5b2be0; 
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.edu-card p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
 
 /* ========== SKILLS SECTION ========== */
 .skills-section {
